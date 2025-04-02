@@ -7,7 +7,7 @@ spec:
  - http:
      paths:
      - pathType: Prefix
-       path: /blue(/|$)(.*)
+       path: /
        backend:
          service:
            name: kube2py-blue-service
